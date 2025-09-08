@@ -1,7 +1,7 @@
 # Short Python Projects
 ## Mini code blocks showcasing applied business logic and real-world problem solving
 
-### Project 1: EMI Calculator – Python Project
+### Project 1: EMI Calculator
 A Python-based **EMI (Equated Monthly Installment) Calculator** that helps users estimate their monthly payments for car loans.  
 Includes **loan eligibility validation, down payment checks, and multi-year repayment comparison (3, 5, and 7 years).**
 
