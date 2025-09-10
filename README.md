@@ -24,7 +24,7 @@ Includes **loan eligibility validation, down payment checks, and multi-year repa
 - Applied financial logic (EMI calculation formula)
 
 ### Project 2: Cart Abandonment Analyzer
-A single-file Python script that simulates Mixpanel-like cart events and analyzes cart abandonment. Identifies abandoned carts using a time-based threshold, reports abandonment rate, and highlights peak abandonment hours. Designed to demonstrate applied business logic and event-time analysis without external datasets or dependencies.
+A single-file Python script that **simulates Mixpanel-like cart events** and analyzes cart abandonment.  Identifies abandoned carts using a time-based threshold, reports abandonment rate, and highlights peak abandonment hours. Designed to demonstrate applied business logic and event-time analysis without external datasets or dependencies.
 
 #### Features
 - Hardcoded, realistic sample events (15 events) including edge cases (exactly 24h purchase, >24h delayed purchase, checkout started but not completed).
