@@ -35,7 +35,7 @@ A single-file Python script that simulates Mixpanel-like cart events and analyze
     - Number of abandoned vs completed carts
     - Abandonment rate (%)
 - Identifies peak abandonment hours (hour-of-day distribution).
-- Lightweight — no external libraries required (uses standard library only).
+- Lightweight; no external libraries required (uses standard library only).
 - DEBUG flag to toggle intermediate prints for development/testing.
 
 #### Use Cases
