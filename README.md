@@ -1,83 +1,91 @@
 # Short Python Projects
-## Mini code blocks showcasing applied business logic and real-world problem solving
 
-### Project 1: EMI Calculator
-A Python-based **EMI (Equated Monthly Installment) Calculator** that helps users estimate their monthly payments for car loans.  
-Includes **loan eligibility validation, down payment checks, and multi-year repayment comparison (3, 5, and 7 years).**
+Mini Python projects demonstrating applied business logic and real-world problem solving.
 
-#### Features
-- Validates down payment against car on-road price.
-- Checks loan eligibility based on maximum loan ratio.
-- Calculates EMI using the standard financial formula.
-- Compares EMIs for 3, 5, and 7-year periods.
-- Displays total payable amount for each option.
-- Clean and formatted currency output.
+---
 
-#### Use Cases
-- Car buyers estimating monthly repayments.
-- Financial enthusiasts exploring interest calculations.
+## Badges
+[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
+![Project 1: EMI Calculator](https://img.shields.io/badge/EMI_Calculator-Completed-brightgreen)
+![Project 2: Cart Abandonment Analyzer](https://img.shields.io/badge/Cart_Analyzer-Completed-brightgreen)
+![Project 3: AI Helpdesk Ticket Simulation](https://img.shields.io/badge/AI_Helpdesk-Completed-brightgreen)
 
-#### Python Concepts Demonstrated
-- Loops
-- Conditions
-- User input handling
-- Applied financial logic (EMI calculation formula)
+---
 
-### Project 2: Cart Abandonment Analyzer
-A single-file Python script that **simulates Mixpanel-like cart events** and analyzes cart abandonment.  Identifies abandoned carts using a time-based threshold, reports abandonment rate, and highlights peak abandonment hours. Designed to demonstrate applied business logic and event-time analysis without external datasets or dependencies.
+## Table of Contents
+- [Project 1: EMI Calculator](#project-1-emi-calculator)
+- [Project 2: Cart Abandonment Analyzer](#project-2-cart-abandonment-analyzer)
+- [Project 3: AI Helpdesk Ticket Simulation](#project-3-ai-helpdesk-ticket-simulation)
+- [Tech Stack / Skills](#tech-stack--skills)
 
-#### Features
-- Hardcoded, realistic sample events (15 events) including edge cases (exactly 24h purchase, >24h delayed purchase, checkout started but not completed).
-- Groups events by (user_id, product_id) to represent unique carts.
-- Defines abandonment using a configurable time threshold (default 24 hours).
-- Calculates abandonment metrics:
-    - Total carts analyzed (unique user–product pairs)
-    - Number of abandoned vs completed carts
-    - Abandonment rate (%)
-- Identifies peak abandonment hours (hour-of-day distribution).
-- Lightweight; no external libraries required (uses standard library only).
-- DEBUG flag to toggle intermediate prints for development/testing.
+---
 
-#### Use Cases
-- Demonstrates event-based data analysis with a clear, real-world business context.
-- Can be used as a template to develop more advanced analytics scripts (e.g., for e-commerce, SaaS, or subscription churn).
-- Provides a foundation for integrating with product analytics tools like Mixpanel or GA4 in future iterations.
+## Project 1: EMI Calculator
+**EMI (Equated Monthly Installment) Calculator** for car loans with **loan eligibility validation, down payment checks, and multi-year comparison (3, 5, 7 years).**
 
-#### Python Concepts Demonstrated
-- Lists & dictionaries (data structures)
-- Tuple keys for dictionary grouping (user_id, product_id)
-- Loops and conditional logic (for, if/else)
-- datetime and timedelta for time arithmetic
-- Aggregation with collections.Counter
-- Basic script structure and simple debug controls
+**Features:**
 
-### Project 3: AI Helpdesk Ticket Simulation
-A Python-based simulation of AI agents at a customer service helpdesk that categorizes support tickets into departments, flags urgent tickets, and assigns priority levels.  
-The project demonstrates how AI agents might “think” and process customer issues in real-time.
+| Feature | Description |
+|---------|-------------|
+| Down Payment Validation | Checks against car on-road price |
+| Loan Eligibility | Validates based on maximum loan ratio |
+| EMI Calculation | Uses standard financial formula |
+| Multi-Year Comparison | Calculates EMI for 3, 5, and 7-year options |
+| Total Payable | Displays total amount for each option |
+| Output | Formatted currency display |
 
-#### Features
+**Use Cases:** Car buyers estimating payments, financial enthusiasts exploring interest calculations  
 
-- Defines complaint categories with associated keywords.  
-- Processes a sample set of customer tickets and expands them into a larger simulated dataset.  
-- Assigns **customer types** (Champions, At-Risk, New, Hibernating) to simulate realistic support scenarios.  
-- Categorizes tickets into departments: Order & Shipping, Billing & Payments, Technical Support, Product Issues, Account Management, and General Inquiry.  
-- Assigns **priority levels** (High, Medium, Low) based on ticket category and customer type.  
-- Flags tickets containing urgent keywords for immediate attention.  
-- Generates a **summary report** showing ticket counts per category and total urgent tickets.  
-- Includes **agent-style comments** to illustrate AI reasoning in decision-making.
+**Python Concepts:** Loops, conditional logic, user input handling, applied financial formulas  
 
-#### Use Cases
-- Simulating customer support workflows for training AI agents.  
-- Testing ticket categorization and priority assignment algorithms.  
-- Demonstrating how automated systems can triage support tickets before human review.  
-- Educational purposes for understanding AI reasoning in business contexts.
+---
 
-#### Python Concepts Demonstrated
-- Loops and iteration  
-- Conditions and branching logic  
-- String handling and keyword search  
-- Dictionary and list manipulation  
-- Collections module (`Counter`) for reporting  
-- Modular code structure with functions and constants  
-- Simulation of AI decision-making logic
+## Project 2: Cart Abandonment Analyzer
+Single-file Python script simulating **Mixpanel-like cart events** to identify abandoned carts and calculate metrics.
 
+**Features:**
+
+| Feature | Description |
+|---------|-------------|
+| Sample Events | 15 hardcoded events including edge cases |
+| Unique Cart Grouping | By `(user_id, product_id)` |
+| Abandonment Threshold | Configurable, default 24 hours |
+| Metrics | Total carts, abandoned vs completed, abandonment rate |
+| Peak Hours | Hour-of-day analysis |
+| Lightweight | Uses only Python standard library |
+| Debug Mode | Toggle intermediate prints |
+
+**Use Cases:** Demonstrates event-based analysis, template for e-commerce/SaaS, foundation for analytics tool integration  
+
+**Python Concepts:** Lists & dicts, tuple keys, loops & conditionals, datetime & timedelta, aggregation with Counter  
+
+---
+
+## Project 3: AI Helpdesk Ticket Simulation
+Simulation of AI agents **categorizing tickets, flagging urgency, and assigning priority**.
+
+**Features:**
+
+| Feature | Description |
+|---------|-------------|
+| Complaint Categories | Keywords for department classification |
+| Ticket Expansion | Sample tickets expanded to larger dataset |
+| Customer Types | Champions, At-Risk, New, Hibernating |
+| Category Assignment | Departments: Order & Shipping, Billing & Payments, Technical Support, Product Issues, Account Management, General Inquiry |
+| Priority Levels | High, Medium, Low |
+| Urgency Flag | Keywords trigger urgent status |
+| Summary Report | Counts per category & urgent tickets |
+| Agent Comments | Illustrates AI reasoning |
+
+**Use Cases:** Simulates AI-based support workflows, tests categorization and priority assignment, demonstrates automated triaging  
+
+**Python Concepts:** Loops, conditions, string handling, dictionary/list manipulation, Counter, modular structure, AI simulation logic  
+
+---
+
+## Tech Stack / Skills
+- Python 3.x  
+- Data structures: lists, dicts, tuples  
+- Applied business logic & problem-solving  
+- Event-time analysis & simulation  
+- Automation & AI reasoning logic
