@@ -6,7 +6,7 @@ Mini Python projects demonstrating applied business logic and real-world problem
 
 ## Badges
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
-![Project 1: EMI Calculator](https://img.shields.io/badge/EMI_Calculator-Completed-brightgreen)
+![Project 1: EMI Calculator](https://img.shields.io/badge/EMI_Calculator-Completed-brightgreen)(./emi_calculator.py)
 ![Project 2: Cart Abandonment Analyzer](https://img.shields.io/badge/Cart_Analyzer-Completed-brightgreen)
 ![Project 3: AI Helpdesk Ticket Simulation](https://img.shields.io/badge/AI_Helpdesk-Completed-brightgreen)
 
