@@ -50,3 +50,34 @@ A single-file Python script that **simulates Mixpanel-like cart events** and ana
 - datetime and timedelta for time arithmetic
 - Aggregation with collections.Counter
 - Basic script structure and simple debug controls
+
+### Project 3: AI Helpdesk Ticket Simulation
+A Python-based simulation of AI agents at a customer service helpdesk that categorizes support tickets into departments, flags urgent tickets, and assigns priority levels.  
+The project demonstrates how AI agents might “think” and process customer issues in real-time.
+
+#### Features
+
+- Defines complaint categories with associated keywords.  
+- Processes a sample set of customer tickets and expands them into a larger simulated dataset.  
+- Assigns **customer types** (Champions, At-Risk, New, Hibernating) to simulate realistic support scenarios.  
+- Categorizes tickets into departments: Order & Shipping, Billing & Payments, Technical Support, Product Issues, Account Management, and General Inquiry.  
+- Assigns **priority levels** (High, Medium, Low) based on ticket category and customer type.  
+- Flags tickets containing urgent keywords for immediate attention.  
+- Generates a **summary report** showing ticket counts per category and total urgent tickets.  
+- Includes **agent-style comments** to illustrate AI reasoning in decision-making.
+
+#### Use Cases
+- Simulating customer support workflows for training AI agents.  
+- Testing ticket categorization and priority assignment algorithms.  
+- Demonstrating how automated systems can triage support tickets before human review.  
+- Educational purposes for understanding AI reasoning in business contexts.
+
+#### Python Concepts Demonstrated
+- Loops and iteration  
+- Conditions and branching logic  
+- String handling and keyword search  
+- Dictionary and list manipulation  
+- Collections module (`Counter`) for reporting  
+- Modular code structure with functions and constants  
+- Simulation of AI decision-making logic
+
